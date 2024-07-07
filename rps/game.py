@@ -36,7 +36,7 @@ while True:
         print("You won this time!")
         you_wins += 1
 
-        # our possibilities of draws
+    # our possibilities of draws
     elif you_wins == "scissors" and computer_pick == "scissors":
         print("No One wins!")
         tie_wins +=1
